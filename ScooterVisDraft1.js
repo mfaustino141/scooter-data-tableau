@@ -30,8 +30,8 @@ function drawLegend() {
   textStyle(NORMAL);
   textSize(14);
 
-  // Green dot
-  fill(0, 220, 120);
+  // Blue dot
+  fill(44, 112, 162);
   noStroke();
   ellipse(x + 25, y + 65, 14);
 
@@ -43,7 +43,7 @@ function drawLegend() {
   );
 
   // Red dot
-  fill(255, 80, 80);
+  fill(175, 24, 32);
   ellipse(x + 25, y + 100, 14);
 
   fill(255);
@@ -56,7 +56,7 @@ function drawLegend() {
   let yShift = 5;
 
   // Red X
-  stroke(255, 80, 80);
+  stroke(175, 24, 32);
   strokeWeight(3);
   line(x + 18, y + 125 + yShift, x + 32, y + 139 + yShift);
   line(x + 32, y + 125 + yShift, x + 18, y + 139 + yShift);
